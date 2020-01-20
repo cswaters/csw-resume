@@ -37,3 +37,9 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+
+# Work history data 
+/data
+
+# hide resume from github
+*.pdf
