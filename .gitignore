@@ -43,3 +43,6 @@ vignettes/*.pdf
 
 # hide resume from github
 *.pdf
+
+# ignore font files
+*.ttf
