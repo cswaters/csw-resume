@@ -26,7 +26,7 @@ skills <- readr::read_csv('../data/skills.csv')
 
 # Professional Summary
 
-Data Scientist/Analyst with 15 years of industry experience applying data science methods to real-world business problems. An analytical and pragmatic thinker with solid statistical skills, I have the ability to extract useful signals from noise. I'm adept at turning those insights into actionable advice that create business value.
+Data Scientist/Analyst with 15 years of industry experience applying data science methods to real-world business problems. An analytical and pragmatic thinker with solid statistical skills, I have the ability to extract useful signals from noisey business data. I'm adept at turning those insights into actionable advice that create business value.
 
 # Work History
 
@@ -62,4 +62,20 @@ awards %>%
     with=with
   )
 ```
+
+
+# Skills
+
+```{r}
+
+tibble(
+  skills = c(
+    'R, Python, SQL, Machine Learning, Excel, Risk Management, A/B Testing, Data Visualization, Data Analysis'
+  )
+) %>%
+  brief_entries(what = skills,)
+
+
+```
+
 
