@@ -1,7 +1,7 @@
 ---
 name: Cory
 surname: Waters
-position: "Data Scientist"
+position: "Data Analyst"
 address: "West Palm Beach, Florida"
 phone: +561-329-8664
 www: www.corywaters.com

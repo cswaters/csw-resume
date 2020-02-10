@@ -46,3 +46,6 @@ vignettes/*.pdf
 
 # ignore font files
 *.ttf
+
+
+/cover
